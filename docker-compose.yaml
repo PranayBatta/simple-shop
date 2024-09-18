@@ -35,7 +35,7 @@ services:
     ports:
       - "35432:5432"
     environment:
-      - POSTGRES_MULTIPLE_DATABASES="db","db_test"
+      - POSTGRES_MULTIPLE_DATABASES="db","db_test"   
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=pass
     volumes:
